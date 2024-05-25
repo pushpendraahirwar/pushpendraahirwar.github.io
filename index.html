@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- Page Loader Start -->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Page Loader End -->
+
+    <!-- Background Circles Start -->
+
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <!-- Background Circles End -->
+
+    <!-- Overlay Start -->
+
+    <div class="overlay"></div>
+
+    <!-- Overlay End -->
+
+    <!-- Main Start -->
+    <div class="main hidden">
+      <!-- Header Start -->
+
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!-- Header End -->
+
+      <!-- Home Section Start -->
+
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>PUSHPENDRA AHIRWAR</h1>
+              <h2>Web Developer <span>& Designer</span></h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="images/pushpendra.jpg" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Home Section End -->
+
+      <!-- About Section Start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="images/pushpendra.jpg" alt="about image" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Hello ! I'm PUSHPENDRA AHIRWAR , a college student with a passion for web development. Currently pursuing my BCA degree at Bundelkhand University, Jhansi (Bu, Jhansi), I have a deep passion for technology and an insatiable curiosity for exploring its applications in our world.
+              </p>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">C</div>
+                <div class="skill-item">C++</div>
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">ReactJS</div>
+                <div class="skill-item">bootstrap</div>
+              </div>
+
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <!--<button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  experience
+                </button> -->
+              </div>
+
+              <!-- Education Start -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">2021-2024</span>
+                    <h4>
+                      bachelor of Computer application - <span>BU jhansi.</span>
+                    </h4>
+                    <p>
+                      Final year student in  Information technology
+                      with an overall percentage of 60+.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2020-2021</span>
+                    <h4>
+                      Senior Secondary - <span>GOVT ADARSH H S SCHOOL , NAUGAON CHHATARPUR.</span>
+                    </h4>
+                    <p>
+                      Completed my 12th from UP board with an overall
+                      percentage of 89.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">2018-2019</span>
+                    <h4> Higher Seconday - <span>SUMITRA BHAWANI HIGH SCHOOL , HARPLAPUR CHHATARPUR.</span></h4>
+                    <p>
+                      Completed my 10th from UP board with an overall
+                      percentage of 87.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Education End -->
+
+              <!-- Experience Start -->
+
+              <!-- <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">Apr21 - Aug21</span>
+                    <h4>
+                      flutter developer intern - <span>era interfaces</span>
+                    </h4>
+                    <p>
+                      Developed a Cross-Platform crypto application using Dart
+                      language and Flutter framework.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Jun21 - Aug21</span>
+                    <h4>
+                      android developer intern -
+                      <span>netcamp solutions pvt. ltd.</span>
+                    </h4>
+                    <p>
+                      Developed an All In One Android application using the
+                      concepts of core Java.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">Jul21 - Aug21</span>
+                    <h4>
+                      React-Native developer intern -
+                      <span>era interfaces</span>
+                    </h4>
+                    <p>
+                      Wrapped the home page of Tesla's official website inside a
+                      Cross-Platform application using React-Native.
+                    </p>
+                  </div>
+                </div>
+              </div>  -->
+
+              <!-- Experience End -->
+
+              <a href="RESUME1.pdf" target="_blank" class="btn">download cv</a>
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Portfolio Section Start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>recent work</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="all img/tem.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Temperature Converter</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The Temperature Converter is a user-friendly web application built with HTML, CSS, and JavaScript, designed to effortlessly convert temperatures between different units. Whether you're planning a trip abroad, studying science, or simply curious about temperature conversions, this intuitive tool provides accurate results with ease.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>october 2022</span></li>
+                    <li>technologies used - <span>HTML, CSS, javascript</span></li>
+                    <li>Role - <span>Frontend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/pushpendraahirwar"
+                          target="_blank"
+                          >www.github.com/pushpendraahirwar/temperature-converter</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="all img/amazon.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Amazon Clone</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The Amazon Clone is a meticulously crafted web application, built with HTML, CSS, and JavaScript, designed to replicate the renowned e-commerce experience of Amazon. This project aims to offer users a familiar shopping interface while showcasing skills in front-end web development.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>feb 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>HTML, CSS, javascript</span>
+                    </li>
+                    <li>Role - <span>Frontend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/pushpendraahirwar"
+                          target="_blank"
+                          >www.github.com/pushpendraahirwar/Amazon_clone</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="all img/travel1.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Travel website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The Travel Website is a dynamic and immersive web application developed using ReactJS, offering users an enticing glimpse into various destinations around the world. With stunning visuals, engaging content, and seamless navigation, the website serves as a virtual gateway to explore and plan exciting travel adventures..
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>August 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>ReactJS</span>
+                    </li>
+                    <li>Role - <span>Frontend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/pushpendraahirwar"
+                          target="_blank"
+                          >www.github.com/pushpendraahirwar/TravelX-website</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="all img/food.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Restaurant Website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The Restaurant Website is a sophisticated and responsive web application built using HTML, CSS, JavaScript, and Bootstrap framework, designed to showcase the culinary offerings and ambiance of a dining establishment. With its modern design, seamless navigation, and rich features, the website provides visitors with an immersive experience into the world of fine dining.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>December 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>HTML, CSS, javascript,Bootstrap</span>
+                    </li>
+                    <li>Role - <span>Frontend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/pushpendraahirwar"
+                          target="_blank"
+                          >www.github.com/pushpendraahirwar/restaurant_website</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="all img/portfolio.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">portfolio website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Created my portfolio website from scratch using the basic
+                    and advance concepts of FullStack. The frontend part of the
+                    website was mainly created using the concepts of languages
+                    like HTML, CSS & Bootstrap. The backend part of the website
+                    was created by using the basic and core concepts of the
+                    JavaScript language.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>April 2024</span></li>
+                    <li>
+                      technologies used - <span>HTML, CSS, JavaScript</span>
+                    </li>
+                    <li>Role - <span>Frontend & Backend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/pushpendraahirwar"
+                          target="_blank"
+                          >www.github.com/pushpendraahirwar/portfolio-website</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img
+                  src="all img/food.png"
+                  alt="portfolio item thumb"
+                />
+              </div>
+              <h3 class="portfolio-item-title">Restaurant Website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    The Restaurant Website is a sophisticated and responsive web application built using HTML, CSS, JavaScript, and Bootstrap framework, designed to showcase the culinary offerings and ambiance of a dining establishment. With its modern design, seamless navigation, and rich features, the website provides visitors with an immersive experience into the world of fine dining.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>December 2023</span></li>
+                    <li>
+                      technologies used -
+                      <span>HTML, CSS, javascript,Bootstrap</span>
+                    </li>
+                    <li>Role - <span>Frontend Developer</span></li>
+                    <li>
+                      View Online -
+                      <span
+                        ><a
+                          href="https://github.com/pushpendraahirwar"
+                          target="_blank"
+                          >www.github.com/pushpendraahirwar/restaurant_website</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Portfolio Item End -->
+            <!-- Portfolio Item Start -->
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio Section End -->
+
+      <!-- Contact Section Start -->
+
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form onsubmit="sendEmail(); reset(); return false;">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="name"
+                      placeholder="Name"
+                      class="input-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      class="input-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      class="input-control"
+                      id="subject"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      id="message"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>pushpendra6432@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>+917723841139</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a
+                    href="https://www.linkedin.com/in/pushpendra-ahirwar/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/pushpendraahirwar" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100052081990891"
+                    target="_blank"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="https://x.com/Pushpen31463632/" target="_blank"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/pushpen.jatav/"
+                    target="_blank"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section End -->
+    </div>
+    <!-- Main End -->
+
+    <!-- Portfolio Item Details Popup Start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="all img/tem.png" alt="pp-thumbnail" />
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Item Details Popup End -->
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script>
+const form =  document.querySelector("form");
+const fullNane = document.getElementById("name");
+const email = document.getElementById("email");
+const subject = document.getElementById("subject");
+const message = document.getElementById("message");
+
+function sendEmail() {
+  const bodyMessage = 'fullNane: ${fullNane.value}<br> Email: ${email.value}<br>Subject: ${subject.value}<br> Message: ${mess.value}';
+  Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "harryraj6388@gmail.com",
+    Password : "1B49E3EB6E3A13459B22C6136A1CE94518C8",
+    To : 'harryraj6388@gmail.com',
+    From : "harryraj6388@gmail.com",
+    Subject : document.getElementById("subject").value,
+    Body :"Name: " + document.getElementById("name").value
+      + "<br> email: " + document.getElementById("email").value
+      + "<br> Subject: " + document.getElementById("subject").value
+      + "<br> Message: " + document.getElementById("message").value
+
+    }).then(function(message) {
+      alert("Message Sent Successfully!!");
+      document.getElementById("contact-form").reset(); // Reset the form after successful submission
+    });
+  }
+    </script>
+  </body>
+</html>
